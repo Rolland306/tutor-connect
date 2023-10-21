@@ -10,7 +10,7 @@ Designed and developed by: Rolland Muzeya
 
 ### Description and Purpose
 
-This application introduces an interactive platform that allows tutors and students to exchange information and feedback on progress being made in classes.
+This application introduces an interactive platform that allows tutors and students to exchange information and feedback on progress being made in classes outside in-person tutoring hours.
 
 ### Inspiration
 
