@@ -1,8 +1,8 @@
-# [your app name here]
+# Tutor Connect
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Rolland Muzeya
 
 🔗 Link to deployed app:
 
@@ -10,17 +10,17 @@ Designed and developed by: [your names here]
 
 ### Description and Purpose
 
-[text goes here]
+This application introduces an interactive platform that allows tutors and students to exchange information and feedback on progress being made in classes.
 
 ### Inspiration
 
-[text goes here]
+I haven't come across an app that is dedicated to enhancing a student's tutoring experience.
 
 ## Tech Stack
 
-Frontend:
+Frontend: HTML, CSS, Javascript, React
 
-Backend:
+Backend: Javascript, Node, PostgreSQL
 
 ## Features
 
