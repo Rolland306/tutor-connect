@@ -24,26 +24,40 @@ Backend: Javascript, Node, PostgreSQL
 
 ## Features
 
-### [Name of Feature 1]
+### User registration:
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+A user is able to signup/login as a Student or Tutor using their school email.
 
 [gif goes here]
 
-### [Name of Feature 3]
+### Search functionality:
 
-[short description goes here]
+A user can choose or search for a class to tutor or find a tutor for help. 
 
 [gif goes here]
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+### List and Selection functionality:
 
+A user can choose from a list of tutors for a chosen class. Each tutor in the list of tutors shows how many tutoring spots are available for students.
+
+[gif goes here]
+
+### More Selection Functionality:
+A student can select a chapter in the class, and pick the subtopics they need help in.
+
+[gif goes here]
+
+### Tutorial-view functionality:
+
+User can see any posted notes from the tutor, and user can add comments/questions in response to the posted notes.
+
+[gif goes here]
+
+### Chapter-view functionality:
+
+Student can tick off chapter subtopics they have mastered.
+
+[gif goes here]
 ## Installation Instructions
 
 [instructions go here]
