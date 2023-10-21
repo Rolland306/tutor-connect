@@ -20,7 +20,7 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 ### 1. What went well during this unit?
 
-I think user stories were fairly easy to come up with.
+I think user stories were fairly easy to come up with. The project guides were very helpful in showing me how to plan for my web application with the user in mind.
 
 ### 2. What were some challenges your group faced in this unit?
 
