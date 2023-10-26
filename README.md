@@ -55,7 +55,7 @@ User can see any posted notes from the tutor, and user can add comments/question
 
 ### Chapter-view functionality:
 
-Student can tick off chapter subtopics they have mastered.
+Student can tick off chapter topics they have mastered.
 
 [gif goes here]
 ## Installation Instructions
