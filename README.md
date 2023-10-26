@@ -43,7 +43,7 @@ A user can choose from a list of tutors for a chosen class. Each tutor in the li
 [gif goes here]
 
 ### More Selection Functionality:
-A student can select a chapter in the class, and pick the subtopics they need help in.
+A student can select a chapter in the class where they need help in.
 
 [gif goes here]
 
