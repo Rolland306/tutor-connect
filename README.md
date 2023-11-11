@@ -24,11 +24,11 @@ Backend: Javascript, Node, PostgreSQL
 
 ## Features
 
-### User registration:
+### User registration: ✅
 
 A user is able to signup/login as a Student or Tutor using their school email.
 
-[gif goes here]
+![tutorconnect1](https://github.com/Rolland306/tutor-connect/assets/76987595/d7272c42-2537-4f8f-9977-cee399004ef9)
 
 ### Search functionality:
 
