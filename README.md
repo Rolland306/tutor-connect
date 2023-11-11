@@ -30,11 +30,11 @@ A user is able to signup/login as a Student or Tutor using their school email.
 
 ![tutorconnect1](https://github.com/Rolland306/tutor-connect/assets/76987595/d7272c42-2537-4f8f-9977-cee399004ef9)
 
-### Search functionality:
+### Search functionality: ✅
 
 A user can choose or search for a class to tutor or find a tutor for help. 
 
-[gif goes here]
+![tutorconnect2](https://github.com/Rolland306/tutor-connect/assets/76987595/2dabc5fe-24dc-42fa-b5ad-c4427d8ba723)
 
 ### List and Selection functionality:
 
