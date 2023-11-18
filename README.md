@@ -40,12 +40,14 @@ A user can choose or search for a class to tutor or find a tutor for help.
 
 A user can choose from a list of tutors for a chosen class. Each tutor in the list of tutors shows how many tutoring spots are available for students.
 
-[gif goes here]
+![tutorconnect3](https://github.com/Rolland306/tutor-connect/assets/76987595/1708e4c1-a5a7-4b80-9ca8-d8f6f703ed65)
+
 
 ### More Selection Functionality:
 A student can select a chapter in the class where they need help in.
 
-[gif goes here]
+![tutorconnect4](https://github.com/Rolland306/tutor-connect/assets/76987595/d6129cdd-738f-4aed-a1dd-70b3956a5941)
+
 
 ### Tutorial-view functionality:
 
