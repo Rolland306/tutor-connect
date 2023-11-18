@@ -1,0 +1,42 @@
+[
+  {
+    "chapter_name": "Basic Logic",
+    "content": "Logic plays a fundamental role in computer science, serving as the backbone of computational thinking. In this chapter, we delve into the world of propositional and first-order logic. We explore logical reasoning, deduction, and methods to solve problems using logic. Understanding these principles lays the groundwork for robust algorithmic design and problem-solving in various domains of computer science.",
+    "class_id": 1
+  },
+  {
+    "chapter_name": "Object-Oriented Programming (OOP)",
+    "content": "Object-Oriented Programming (OOP) is a paradigm that revolutionized software development. \n\nThis chapter introduces the core concepts of OOP, including classes, objects, inheritance, and polymorphism. Through real-world examples, we showcase how OOP enhances code organization, reusability, and maintainability. Mastery of OOP principles empowers developers to create modular and scalable systems.",
+    "class_id": 1
+  },
+  {
+    "chapter_name": "Data Structures",
+    "content": "Data structures form the bedrock of efficient algorithmic solutions. This chapter provides an overview of fundamental data structures such as arrays, linked lists, and trees. We delve into strategies for organizing and manipulating data to optimize storage and retrieval. A solid understanding of data structures is pivotal for crafting algorithms that tackle diverse computational challenges.",
+    "class_id": 1
+  },
+  {
+    "chapter_name": "Algorithms",
+    "content": "Algorithms are the heart of computational problem-solving. \nIn this chapter, we embark on a journey into the world of algorithms, exploring sorting, searching, and graph algorithms. Emphasis is placed on analyzing algorithmic efficiency and understanding complexity. \n\nProficiency in algorithm design equips programmers with the tools to tackle complex computational tasks.",
+    "class_id": 1
+  },
+  {
+    "chapter_name": "Logic in Computer Systems",
+    "content": "Logic finds practical application in the design of computer systems. This chapter delves into digital circuits, binary logic, and boolean algebra. We explore the integration of logic into computer architecture, unraveling the intricate connections between logical principles and the physical components of computing devices.",
+    "class_id": 2
+  },
+  {
+    "chapter_name": "Advanced OOP Concepts",
+    "content": "Building upon foundational OOP principles, this chapter navigates through advanced concepts like design patterns, interfaces, and abstract classes. Through case studies, we demonstrate the real-world application of these advanced OOP concepts, empowering developers to create scalable and maintainable software architectures.",
+    "class_id": 2
+  },
+  {
+    "chapter_name": "Advanced Data Structures",
+    "content": "In this chapter, we explore advanced data structures tailored for intricate scenarios. Hash tables, balanced trees, and graphs take center stage as we delve into strategies for efficient storage and retrieval. A nuanced understanding of advanced data structures equips programmers to address complex data management challenges.",
+    "class_id": 2
+  },
+  {
+    "chapter_name": "Advanced Algorithms",
+    "content": "Advanced algorithmic techniques take the spotlight in this chapter. Dynamic programming, divide and conquer, and randomized algorithms are explored in-depth. We unravel the intricacies of solving complex computational problems algorithmically, providing a toolkit for addressing challenges at the forefront of computer science.",
+    "class_id": 2
+  }
+]

@@ -1,0 +1,80 @@
+nav {
+    background-color: rgba(120, 196, 240, 0.8);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul:first-child {
+    display: flex;
+    align-items: center;
+}
+
+ul:last-child {
+    display: flex;
+    margin-right: 80px;
+}
+
+li {
+    margin: 0;
+    padding: 15px;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+li:hover {
+    border-color: #fff;
+    /* Change border color on hover */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5296c0;
+    padding: 15px;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+}
+
+/* Add styles for each class_name item */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    /* Add border between items */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.dropdown-content a:hover {
+    color: #800080;
+    /* Change to purple (adjust the color code as needed) */
+}
+
+/* Remove border from the last item */
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+li:hover .dropdown-content {
+    display: block;
+}

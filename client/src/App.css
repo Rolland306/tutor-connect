@@ -1,0 +1,107 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: #373D3F;
+  justify-content: center;
+  background-image: url('background.jpg');
+  background-color: #97bfd8a3;
+  background-position: right center;
+  background-size:cover;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+
+.header {
+  width: 100%;
+  color: #373D3F;
+  text-align: center;
+}
+
+.headerBtn {
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  color:373D3F;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.headerBtn:hover {
+  background-color: #97bfd8;
+  transition: all .7s ease;
+  -webkit-transition: all .7s ease;
+}
+
+.tutorsContainer{
+  position: fixed;
+  top: 15%;
+  padding-top: 5%;
+  display: flex;
+    align-content: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction:column;
+}
+
+.subNavigation {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+h3 {
+  color: black;
+}
+
+
+.chaptersContainer{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+
+}
+
+.chapterList{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  border-bottom: solid black;
+  padding-top: 20vh;
+  height: 100vw;
+}
+.chapterContent{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20vh;
+  border-left: solid white;
+  padding-left: 5%;
+}
+.chaptersContainer .chapterList li.mastered {
+  background-color: #4caf50;
+  /* Green color */
+  color: #fff;
+  /* White text */
+}
