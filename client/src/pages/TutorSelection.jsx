@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import Card from "../components/Card";
 
 const TutorSelection = () => {
-  const API_URL = "http://localhost:3001";
+  const API_URL =
+    process.env.NODE_ENV === "production"
+      ? "https://tutor-connect-production.up.railway.app"
+      : "";
   const [tutors, setTutors] = useState([]);
 
   useEffect(() => {
@@ -14,7 +17,7 @@ const TutorSelection = () => {
     };
 
     fetchTutors();
-  }, []);
+  }, [API_URL]);
   console.log("tutorsForReal: ", tutors);
 
   return (

@@ -48,14 +48,6 @@ const App = () => {
       path: "/chapters",
       element: <ViewChapters />,
     },
-    // {
-    //   path: "/activity/create/:trip_id",
-    //   element: <CreateActivity />,
-    // },
-    // {
-    //   path: "/destinations/add/:destination_id",
-    //   element: <AddToTrip data={trips} />,
-    // },
   ]);
 
   return (

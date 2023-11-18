@@ -5,7 +5,10 @@ import "react-toastify/dist/ReactToastify.css";
 import "./StudentLogin.css";
 
 const StudentLogin = () => {
-  const API_URL = "http://localhost:3001";
+  const API_URL =
+    process.env.NODE_ENV === "production"
+      ? "https://tutor-connect-production.up.railway.app"
+      : "";
   const [userData, setUserData] = useState([]);
   const [user, setUser] = useState({
     username: "",
@@ -23,7 +26,7 @@ const StudentLogin = () => {
       setUserData(data);
     };
     fetchUsers();
-  }, []);
+  }, [API_URL]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;

@@ -4,7 +4,10 @@ import "../App.css";
 import "../css/Navigation.css";
 
 const Navigation = () => {
-  const API_URL = "http://localhost:3001";
+  const API_URL =
+    process.env.NODE_ENV === "production"
+      ? "https://tutor-connect-production.up.railway.app"
+      : "";
   const [classes, setClasses] = useState([]);
   const [allowClassSelection, setAllowClassSelection] = useState(false);
   const navigate = useNavigate();
@@ -24,7 +27,7 @@ const Navigation = () => {
     // Check if the current route allows class selection
     const { pathname } = location;
     setAllowClassSelection(pathname === "/selectclasses");
-  }, [location]);
+  }, [location, API_URL]);
 
   const handleClassClick = (classId) => {
     // Handle class selection, e.g., navigate to class details

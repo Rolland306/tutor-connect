@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const ViewChapters = (props) => {
-  const API_URL = "http://localhost:3001";
+  const API_URL =
+    process.env.NODE_ENV === "production"
+      ? "https://tutor-connect-production.up.railway.app"
+      : "";
   const [chapters, setChapters] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [comment, setComment] = useState("");
@@ -18,7 +21,7 @@ const ViewChapters = (props) => {
     };
 
     fetchChapters();
-  }, []);
+  }, [API_URL]);
 
   useEffect(() => {
     const fetchComments = async () => {
@@ -32,7 +35,7 @@ const ViewChapters = (props) => {
     };
 
     fetchComments();
-  }, [selectedChapter]);
+  }, [selectedChapter, API_URL]);
 
   const handleChapterClick = (chapter) => {
     setSelectedChapter(chapter);
