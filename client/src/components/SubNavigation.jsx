@@ -5,7 +5,7 @@ import "../css/SubNavigation.css";
 const SubNavigation = () => {
   const location = useLocation();
   const pathSegments = location.pathname.split("/");
-  const classId = pathSegments[2]; // Assuming the class ID is the third segment of the path
+  const classId = pathSegments[2];
 
   return (
     <div className="sub-navigation">
