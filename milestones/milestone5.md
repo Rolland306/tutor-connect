@@ -82,7 +82,9 @@ i was able to implement my user features, and style them in the way I had envisi
 
 ### 2. What were some challenges your group faced in this unit?
 
-A lot of issues I hadn't anticipated arose. This included user validation and validating requests before they make changes to my database. This was more complex than I thought it was going to be.
+A lot of issues I hadn't anticipated arose. This included user validation and validating requests before they make changes to my database. This was more complex than I thought it was going to be. Unfortunately, my client deployment kept failing. 
+![image](https://github.com/Rolland306/tutor-connect/assets/76987595/5599ee05-1f3f-44b3-bfa7-12de713e7fa2)
+
 
 ### 3. What were some of the highlights or achievements that you are most proud of in this project?
 
